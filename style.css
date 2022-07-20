@@ -1,14 +1,21 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
 body{
     background-color: #dddddd;
     margin-top: 0px;
     margin-left: 0px;
-    
 }
 
 header{
     background-color: #90BEDE;
     position: fixed;
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0;
 }
 
 h1{
@@ -23,24 +30,31 @@ nav{
 
 img {
     border-radius: 20px;
-    margin-top: 130px;
-}
-
-#fotopessoal {
-    display: flex;
-    justify-content: center;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
+    display: flex;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-.container #descricao{
-    background-color: green;
+.parte-texto {
+    margin-left: 50px;
 }
 
-.container #habilidades{
-    background-color: blue;
+.sobre-mim {
+    margin-bottom: 50px;
+}
+
+#resumo-profissional, #resumo-pessoal {
+    font-size: 20px;
+}
+
+.habilidades > ul > li {
+    font-size: 20px;
+}
+
+.logos {
+    text-align: center;
 }
